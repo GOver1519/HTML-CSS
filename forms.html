@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Forms</h1>
+        <p>for attribute is used to indicate which lable belongs to which input box<br>
+            By default input type is text<br>
+            Radio button should be used to select one among many & checkbox should be used multiple options
+        </p>
+        <form>
+            <label for="Name">Enter your name: </label>
+            <input id="Name">
+            <br>
+            <label for="Mail ID">Enter your mail ID: </label>
+            <input id="Mail ID" type="email">
+            <br>
+            <label for="password">Enter your password: </label>
+            <input id="password" type="password">
+            <br>
+            <label for="Basketball">Basketball </label>
+            <input id="Basketball" type="radio" name="sports">
+            <label for="Cricket">Cricket</label>
+            <input id="Cricket" type="radio" name="sports"
+            ><br>
+            <label for="Basketball">Basketball </label>
+            <input id="Basketball" type="checkbox">
+            <label for="cricket">Cricket</label>
+            <input id="cricket" type="checkbox">
+            <label for="hockey">Hockey </label>
+            <input id="hockey" type="checkbox">
+            <br>
+            <label for="phone">Phone number</label>
+            <input id="phone" type="number">
+            <br>
+            <label for="calender">Calender</label>
+            <input id="calender" type="date">
+            <br>
+            <label for="dropdown">Dropdown</label>
+            <select>
+                <option>Basketball</option>
+                <option value="CA" selected>Cricket</option>
+                <option>Hockey</option>
+                <option>Football</option>
+            </select>
+            <br>
+            <textarea name="" id=""></textarea>
+            <br>
+            <fieldset>
+                <p>Field set is used to group any part of form inside it</p>
+                <label for="button">Just a button</label>
+                <input type="button" id="button">
+                <label for="color">Choose color</label>
+                <input type="color" id="color">
+            </fieldset>
+            <br>
+            <label for="file">Choose file</label>
+            <input id="file" type="file">
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
